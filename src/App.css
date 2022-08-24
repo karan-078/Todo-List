@@ -2,472 +2,90 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: sans-serif;
-text-decoration: none;
-list-style: none;
 }
 
- body{
-  background: #edededbc;
- display: flex;
- justify-content: center;
- align-items: center;
-
-}  
-
-/* 
-h1{
-
- background:#c1bbbb;
- width: 30rem;
- padding: 0.4rem 2rem;
- border-radius: 16px;
- margin: 1rem;
+body{
+  background: #ededed;
 }
 
-.item {
-  display: flex;
-  justify-content: space-between;
-  
- background: #c1bbbb;
- width: 35rem;
- padding: 0.4rem 2rem;
- border-radius: 16px;
- margin-top: 1rem;
- align-items: center;
-} */
-/* 
- button, .btn{
-  background: rgba(0, 34, 255, 0.541);
-  width: 6vw;
-  height: 3vh;
- border: none;
- outline: none;
-  margin-left: 1rem;
-  color: rgb(255, 255, 255);
-}  */
-/* .conatiner{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn{
-  margin-top: 2rem;
-} */
-/* 
-
-
-
-
-
-
-
-form{
-  background: rgb(40, 77, 147);
-  padding:4rem 4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-label{
-  margin-right: 4rem;
-}
-
-.ontainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
-
-/* 
-.container{
-  background: #9c9999;
- height: 100vh;
-}
-
-nav{
-  display: flex;
-  background:#ffffff;
-  align-items: center;
-  justify-content: space-between;
-  padding:1rem 4rem;
-}
-
-ul{
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-} */
-
-
-/* slidebar css srart ___________>>>>>>>>>>>>>__________>>>>>>>> */
-
- 
-/* .container{
- text-align: center;
- width: 80vw;
- margin: auto;
- height: 80vh;
-
-}
-
-span{
-  margin-right: 2rem;
-   color: #9e2b2ba9;
-}
-.section_container{
-  width: 70%;
-  display: flex;
-  height: 450px;
-  max-width: 800px;
-  text-align: center;
-  position: relative;
-  margin: auto;
-  margin-top: 4rem;
-  overflow: hidden; 
-}
-
-img{
- border-radius: 50%;
- width: 150px;
- height: 150px;
- margin-bottom: 1rem;
-  object-fit: cover; 
-}
-
-article{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  opacity: 0; 
-  transition: 2s ease-in-out;
-}
-
-article.activeSlide{
-  opacity: 1;
-  transform: translate(0);
-}
-
-article.lastSlide{
-  transform: translate(100%);
-}
-
-article.nextSide{
-  transform: translate(-100%);
-}
-.prev,
-.next{
-  position: absolute;
-  top: 200px;
-  transform: translate(-50%);
-  background: #494949;
-  color: #fff;
-  width: 1.25rem;
-  height: 1.25rem;
-  display: grid;
-  place-items: center;
-  border-color: transparent;
-  font-size: 1rem;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 2s ease;
-}
-
-.next{
- right: 0px;
- top: 200px;
-}
-.prev{
-  left: 16px;
-}
- h1,h4,p{
-  margin-top: 1rem;
- }
-
- .icon{
-  height: 3rem;
-  width: 3rem;
-  color: rgb(229, 144, 34);
-margin-top: 1rem;
- }  */
-
- /* slidebar css end ___________>>>>>>>>>>>>>__________>>>>>>>> */
-
-
-
- /*  lorem genrate css */
-
-
- /* .section_center{
-  width: 50vw;
-  height: 100%;
-  text-align: center;
-  margin: 4rem 0 0  0;
-  padding: 1rem 2rem;
- }
-
-
-  form{
-   padding-top: 2rem;
-  }
-
-  input{
-    width: 3vw;
-    height: 1.4rem;
-    border-radius: 4px;
-    text-align: center;
-    margin-left: 3px;
-  }
- p{
-  margin-top: 3rem;
- }
-
- h2{
-  background: rgba(0, 34, 255, 0.541);
-  color: #ededed;
-  padding: .4rem .5rem;
-  border-radius: 12px;
- } */
-
-
- /* lorem genrate css ended */
-
-
-/* setup for slidebar */
- 
-/* .center{
-  background: rgb(0, 217, 255); 
-  width: 40vw;
-  min-height: 60%;
-  min-height: 10vh;
-  margin: auto;
+ .contanier {
+  width: 40%;
+  min-height: 20vh;
+  background: rgb(255, 255, 255);
+  margin: 6rem auto;
   text-align: center;
   padding: 1rem 1rem;
-  border-radius: 12px;
+  border-radius: 3px;
+}
+
+h1{
+  width: 100%;
+ margin: auto;
+ padding: .4rem .4rem;
+  color: rgba(71, 114, 253, 0.428);
+}
+
+.alert{
+  width: 80%;
+  height: 4vh;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 4px;
+  padding: 0.2rem 0.6rem;
 } 
 
-li{
-  width: 90%;
-  height: 11vh;
-  background: rgb(250, 246, 246);
+.alert-sucsess{
+  background: rgba(55, 185, 55, 0.472);
+}
+
+.alert-faild{
+  background: rgba(231, 54, 54, 0.421);
+} 
+
+article{
   display: flex;
-  align-items: center;
-  border-radius: 16px;
-  margin: auto;
-  margin-top: 1rem;
-  padding-left: 1rem;
-}
-
-img{
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-
-button {
-  width: 36vw;
-  background-color:rgb(106, 255, 0);
-  height: 1.8rem;
-  margin-left: 1.2rem;
-  outline: none;
-  border: none;
- margin-top: 1rem;
- color: rgb(51, 0, 255);
- font-size: 1rem;
-}
-
-h4{
- margin-left: 1rem;
-}
-
-h2{
-  background-color: rgb(106, 255, 0);
-  padding: 0.5rem 0rem;
-  color: blue;
-} */
-
-/* setup for slidebar end */
-
-/*setup for reviwes */
-
-/* 
-section{
-  padding: 1rem 1rem;
-  background: #9dcbd3;
-  text-align: center;
-  width: 50%;
-  margin: auto;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-self: center;
-  gap: 1rem;
-  position: relative;
-}
-
-img{
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  border: 2px solid green;
-}
-
-.job,.info{
-  margin-top: 1rem;
-}
-
-.buttoncontainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 6rem;
-  margin-top: 1rem;
-}
-
-.btn1,.btn2{
-  text-align: center;
-  background: transparent;
-  outline: none;
-  border: none;
-}
-
-button{
-  background-color: transparent;
-  border: 1px solid green;
-  outline: none;
-  margin-top: .5rem;
-}
-
-
-@media screen and (max-width: 400px) {
-  section{
-
-    width: 100%;
-    padding: 1rem 1rem;
-    background: #9dcbd3;
-    text-align: center;
-    margin: auto;
-   
-  }
-
-} */
-
-
-
-/* Togel */
-/* .container{
-  background: #fff;
-  width: 50%;
-  margin: auto;
- min-width: 55vw;
-}
-
-header{
-  margin-top: 1rem;
-  display: flex;
-  justify-content: space-between;
-  background: #fff;
-  padding: 1rem 1rem;
-  border-radius: 12px;
-  gap: 2rem;
-  min-height: 11vh;
-  min-width: 50vw;
-}
-
-.btn{
-  padding: 0 1rem;
-  border: none;
-  border-radius: 50%;
-}
-
-@media screen and (max-width:400px) {
-
-  .container{
-    width: 100%;
-  }
-
-  header{
-    width: 100%;
-  }
-} */
-
-/* togle end  */
-
-
-/* menu */
-
-.btn_container{
-  width: 80%;
-  height: 12vh;
-  margin: auto;
-  text-align: center;
-  padding-top: 2rem;
-}
-
-button{
-  padding: .4rem .7rem;
-  margin: 0 1rem;
-  background: transparent;
-  color: rgb(233, 138, 14);
-  border-radius: 4px;
-  border-color:  rgb(233, 138, 14);
-}
-
-
-.containers{
-  width: 40%;
-  margin: auto;
-  text-align: center;
-  padding: 0 1rem;
-  border: 1px solid black;
-  /* display: flex;
   flex-wrap: wrap;
-  gap: 2rem; */
-}
-img{
-  height: 20vh;
-  width: 100%;
-  border: 3px solid #866e35;
-  border-radius: 3px;
-  margin-top: 1rem;
-}
-
-header{
-  display: flex;
-  /* flex-direction: column; */
+  align-items: center;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin: 1rem 1rem;
+  padding: .4rem .4rem;
+ background: rgba(255, 0, 242, 0.200); 
+ border-radius: 4px;
 }
 
-p{
-  margin-top: 1rem;
-}
-
-.image-container{
-  display: flex;
-}
-
-@media screen and (max-width:400px) {
-
+.edit_btn,.dlelt_btn{
+  color: rgb(7, 112, 54);
+  background: transparent;
+  border: none;
+  margin-right: 1rem;
   
-  .containers{
-    width: 80%;
-  }
- .btn_container{
-  width: 100%;
-  margin: 0rem 0rem;
- }
-button{
-  margin: 0 .4rem;
 }
+
+.dlelt_btn{
+  color: red;
+margin-right: 0.6rem;
+}
+
+.submit_btn,.clear_btn{
+  color: rgba(43, 37, 227, 0.981);
+  border-color: rgba(43, 37, 227, 0.587) ;
+  padding: 0.1rem 0.2rem;
+}
+
+.input_iem{
+  border-color: rgba(43, 37, 227, 0.587) ;
+  padding-left: 1rem;
+  padding: 0.1rem 0.2rem;
+  margin-right: .4rem;
+}
+
+.form_control{
+  text-align: center;
+}
+
+@media screen and (max-width:370px){
+  
+  .contanier{
+    width: 90%;
+  }
 }
